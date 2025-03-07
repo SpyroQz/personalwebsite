@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.projects > h2{
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    padding: 4px;
+    border: 0;
+    background-color: white;
+}
+
+.about > p {
+    letter-spacing: 1px;
+}
+
+.selfie {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.contact a img{
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.contact a img:hover {
+    transform: scale(1.2);
+}
